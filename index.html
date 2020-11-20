@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PayAnyWay</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/mobile-logo.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/37d3379d8e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="info">
+            <input type="checkbox" id="switcher" checked>
+            <label class="open" for="switcher">
+                <i class="fas fa-bars"></i>
+            </label>
+            <div class="desktop-hide desktop">
+                <img src="img/logo.svg" alt="logo" class="desktop-logo">
+            </div>
+            <div class="logo-block mobile">
+                <img src="img/mobile-logo.svg" alt="logo" class="mobile-logo">
+                <hr class="line1">
+                <p class="logo-text">СПБ</p>
+            </div>
+            <nav>
+                <div class="links">
+                    <a href="" class="link">Интернет-экврайтинг</a>
+                    <a href="" class="link">Касса</a>
+                    <a href="" class="link">Маркетплейсам</a>
+                    <a href="" class="link">Самозанятым</a>
+                    <a href="" class="link grey">СБП</a>
+                    <a href="" class="link margin">API Soiution</a>
+                </div>
+                <a href="#" class="button hide-on-desk">Войти</a>
+                <label class="close" for="switcher">
+                    <i class="far fa-window-close"></i>
+                </label>
+            </nav>
+            <a href="#" class="button">Войти</a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="qr-code">
+            <div class="left">
+                <p class="title">Уменьшите расходы
+                    на приём платежей до 5 раз
+                </p>
+                <p class="text">с системой быстрых платежей (СБП) для бизнеса</p>
+                <ul class="list">
+                    <li class="list__text">Комиссия 0,4–0,7%</li>
+                    <li class="list__text">Оплата по моментальной ссылке и QR</li>
+                    <li class="list__text">Без открытия расчётного счёта</li>
+                </ul>
+                <div class="btn">
+                <a href="#" onclick="alert('Ура, вы смогли подключить!')" class="button">Подключить</a></div>
+            </div>
+            <div class="right">
+                <img src="img/qr_code.png" alt="photo" class="qr-code__img">
+            </div>
+        </div>
+        <p class="paragraph">Получайте оплату за товары или услуги мгновенно и в любой день недели через СБП, а платите
+            в 5 раз меньше, чем за эквайринг.</p>
+        <div class="sbp">
+            <div class="title">
+                <p class="title__text">Зачем вам система безопасных платежей</p>
+                <img src="img/sbp.png" alt="photo" class="title__img">
+            </div>
+            <ul class="sbp__list">
+                <li class="sbp__list-text">Экономия на эквайринге. Расходы на приём платежей
+                    в несколько раз ниже, чем на интернет-эквайринг</li>
+                <li class="sbp__list-text">Деньги на вашем счёте мгновенно. Поступление платежа от банка-участника СБП
+                    за несколько секунд</li>
+                <li class="sbp__list-text">Привлечение новых покупателей. Человек сможет оплатить товар, даже если не
+                    хочет указывать данные банковской карты</li>
+                <li class="sbp__list-text">Повышение конверсии. Для совершения покупок покупателям нужен только смартфон
+                    — становится больше импульсных покупок</li>
+            </ul>
+            <p class="sbp__text">
+                С СБП вы зарабатываете больше, а тратите меньше.
+            </p>
+        </div>
+        <div class="how-work">
+            <p class="title">Как работает СБП с PayAnyWay?</p>
+            <div class="block">
+                <div class="left">
+                    <ol class="list">
+                        <li class="list__text">Система формирует QR-код или моментальную ссылку для оплаты товара или
+                            услуги, которую вы размещаете на сайте магазина или в приложении</li>
+                        <li class="list__text">Покупатель сканирует этот код смартфоном или переходит по ссылке</li>
+                        <li class="list__text">Открывает приложение банка, проверяет реквизиты оплаты и нажимает
+                            «Оплатить»</li>
+                        <li class="list__text">В течение нескольких секунд вам приходит оповещение, что оплата поступила
+                        </li>
+                    </ol>
+                </div>
+                <div class="right">
+                    <img src="img/payanyway.png" alt="photo" class="how-work__img">
+                </div>
+            </div>
+            <p class="how-work__text">
+                Посмотреть, как это работает, можно <a
+                    href="https://www.payanyway.ru/assistantWizard-1993316027.htm;jsessionid=EA62845A0E9118C979127147C347B67C.v"
+                    class="link">по ссылке</a>, если есть приложение <a href="https://sbp.nspk.ru/participants/"
+                    class="link">
+                    банка-участника</a>.
+            </p>
+        </div>
+        <div class="how-many-pay">
+            <p class="title">Сколько вы платите?</p>
+            <p class="text margin">0,4% с платежей:</p>
+            <ul class="list">
+                <li class="list__text">за ЖКХ</li>
+                <li class="list__text">за услуги городской, пригородной и транспортной инфраструктуры</li>
+                <li class="list__text">за интернет, телевидение и услуги почтовых отделений</li>
+                <li class="list__text">за покупки потребительских товаров и товаров ежедневного спроса</li>
+                <li class="list__text">в благотворительные фонды</li>
+                <li class="list__text">за покупки медицинских товаров</li>
+            </ul>
+            <p class="text">0,7% с платежей за все остальные товары и услуги</p>
+        </div>
+        <hr class="line">
+        <div class="how-start">
+            <p class="title">Как начать работать с СБП и PayAnyWay?</p>
+            <ol class="list">
+                <li class="list__text">Зарегистрируйтесь. На почту придёт письмо с доступами
+                    к аккаунту</li>
+                <li class="list__text">Заполните профиль</li>
+                <li class="list__text">Дождитесь завершения проверки данных (обычно занимает рабочий день)</li>
+                <li class="list__text">По нашей инструкции установите модуль приёма платежей на сайт</li>
+            </ol>
+            <a href="#" onclick="alert('Ура, вы смогли подключить!')" class="button">Подключить</a>
+        </div>
+        <hr class="line">
+        <div class="why">
+            <div class="title">
+                <p class="title__text">Почему PayAnyWay?<br> <span class="text-style">
+                        Мы помогаем развивать не только бизнес через систему быстрых платежей.
+                    </span></p>
+                <img src="img/why-payanyway.png" alt="photo" class="title__img">
+            </div>
+            <ul class="list">
+                <li class="list__text">Уже со старта проекта платите одну из самых низких комиссий за эквайринг</li>
+                <li class="list__text">Выбирайте из 100+ готовых модулей CMS для приёма оплаты</li>
+                <li class="list__text">Работайте с онлайн-кассой по 54-ФЗ</li>
+                <li class="list__text">Получайте оплату банковскими картами и другими популярными способами оплаты</li>
+                <li class="list__text">Отправляйте клиентам счета по электронной почте, смс или в мессенджерах</li>
+                <li class="list__text">Делайте массовые выплаты</li>
+                <li class="list__text">Подключайте форму оплаты самостоятельно без привлечения дополнительных
+                    специалистов</li>
+            </ul>
+            <p class="text">Настройте приём онлайн-платежей с PayAnyWay за один день.</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="title">Если у вас остались вопросы, свяжитесь с нами</p>
+        <p class="text bottom"><a href="malito:business@support.payanyway.ru"
+                class="email">business@support.payanyway.ru</a></p>
+        <p class="text"><a href="tel:+74956465848" class="tel">+7 (495) 646-58-48</a></p>
+    </footer>
+</body>
+
+</html>
